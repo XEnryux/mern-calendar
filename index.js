@@ -31,4 +31,4 @@ app.listen(process.env.PORT,()=>{
 
 });
 
-console.log();
+console.log(1);
