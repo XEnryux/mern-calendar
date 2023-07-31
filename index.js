@@ -8,6 +8,7 @@ const { dbConnection } = require('./DB/config');
 const app = express();
 
 
+
 //base de datos
 dbConnection();
 
@@ -29,3 +30,5 @@ app.listen(process.env.PORT,()=>{
     console.log(`servidor corriendo en puerto ${ process.env.PORT }`);
 
 });
+
+console.log();
