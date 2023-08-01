@@ -6,7 +6,7 @@ const { check } = require('express-validator');
 const { isDate } = require('../helpers/isDate');
 const { fieldValidator } = require('../middlewares/fieldValidator');
 const { jwtValidator } = require('../middlewares/jwtValidator');
-const { getEvents, createEvent, refreshEvent, deleteEvent } = require('../events');
+const { getEvents, createEvent, refreshEvent, deleteEvent } = require('../controllers/events');
 
 
 const router = Router();
